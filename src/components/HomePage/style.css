@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100px;
+}
+
+.conteudo-opcoes{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.conteudo-opcoes a {
+    padding: 30px;
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.opcao-santos{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+  }
+  
+  .opcao-corinthians{
+    background-color: #1100ff;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .opcao-palmeiras{
+    background-color: #1eff00;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .opcao-saopaulo{
+    background-color: #ff0000;
+    color: white;
+    border-radius: 10px;
+  }
+  

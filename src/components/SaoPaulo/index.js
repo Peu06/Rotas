@@ -1,0 +1,23 @@
+import React from "react";
+import './style.css';
+const SaoPaulo = () => (
+    <div>
+      <br></br>
+        <a href='/'>Voltar</a>
+        <h1>Sao Paulo</h1>
+        <p>O tricolor paulista surgiu através da fusão de dois antigos clubes: o Paulistano, grande campeão no início do século XX e a Associação Atlética das Palmeiras, que se uniram em 1930 dando origem ao Clube Athlético São Paulo ou São Paulo da Floresta, como muitos o chamavam.</p>
+        <img class="SaoPaulo" src="data:image/png;base64,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" ></img>
+      <h4>alguns titulos</h4>
+      
+      <p>Pequena Copa do Mundo: 1955 e 1963.</p>
+      <p>Torneio Quadrangular de Cali: 1060.</p>
+      <p>Torneio Pentagonal de Guadalajara: 1960.</p>
+      <p>Taça Sporting Club de Portugal: 1960.</p>
+      <p>Troféu Sport Lisboa e Benfica: 1968.</p>
+      <p>Troféu Nabi Abi Chedid: 1981.</p>
+      <p>Torneio Internacional de Verão: 1982.</p>
+      <p>Troféu Real Madrid: 1986</p>
+      
+    </div>
+);
+export default SaoPaulo;

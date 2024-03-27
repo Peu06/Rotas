@@ -1,0 +1,13 @@
+img{
+    height: 130px;
+    width: 100;
+}
+
+a{
+    text-decoration: none;
+    background-color: brown;
+    color: aliceblue;
+    font-size: 700;
+    border-radius: 70px;
+    padding: 10px 40px;
+}
